@@ -1,0 +1,11 @@
+package WrapClass;
+
+public class BooleanEx {
+	public static void main(String[] args) {
+        Boolean boolObj = Boolean.valueOf("true");
+        boolean primitiveBool = boolObj.booleanValue();
+        
+        System.out.println("Boolean value: " + primitiveBool);
+    }
+
+}
